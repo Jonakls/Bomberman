@@ -7,18 +7,24 @@ version = '1.0'
 
 repositories {
     mavenCentral()
+
     maven {
         name = 'spigotmc-repo'
         url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
     }
+
     maven {
         name = 'sonatype'
         url = 'https://oss.sonatype.org/content/groups/public/'
     }
+
+    maven { url 'https://repo.unnamed.team/repository/unnamed-public/' }
 }
 
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT'
+
+    implementation group: 'me.fixeddev', name: 'commandflow-bukkit', version: '0.4.0'
 }
 
 def targetJavaVersion = 8
