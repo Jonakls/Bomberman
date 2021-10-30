@@ -29,7 +29,7 @@ public class CommandRegistry {
         this.commandManager.registerCommands(treeBuilder.fromClass(new MainCommand()));
     }
 
-    public void unreegister() {
+    public void unregister() {
         this.commandManager.unregisterAll();
     }
 }
