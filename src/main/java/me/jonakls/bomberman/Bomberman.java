@@ -1,6 +1,6 @@
-package me.gardendev.bomberman;
+package me.jonakls.bomberman;
 
-import me.gardendev.bomberman.commands.registry.CommandRegistry;
+import me.jonakls.bomberman.commands.registry.CommandRegistry;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Bomberman extends JavaPlugin {

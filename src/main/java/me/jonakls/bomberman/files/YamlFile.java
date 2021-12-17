@@ -1,6 +1,6 @@
-package me.gardendev.bomberman.files;
+package me.jonakls.bomberman.files;
 
-import me.gardendev.bomberman.Bomberman;
+import me.jonakls.bomberman.Bomberman;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;

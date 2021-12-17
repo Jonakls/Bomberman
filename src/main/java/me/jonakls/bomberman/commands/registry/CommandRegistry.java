@@ -1,4 +1,4 @@
-package me.gardendev.bomberman.commands.registry;
+package me.jonakls.bomberman.commands.registry;
 
 import me.fixeddev.commandflow.CommandManager;
 import me.fixeddev.commandflow.annotated.AnnotatedCommandTreeBuilder;
@@ -6,8 +6,8 @@ import me.fixeddev.commandflow.annotated.part.PartInjector;
 import me.fixeddev.commandflow.annotated.part.defaults.DefaultsModule;
 import me.fixeddev.commandflow.bukkit.BukkitCommandManager;
 import me.fixeddev.commandflow.bukkit.factory.BukkitModule;
-import me.gardendev.bomberman.Bomberman;
-import me.gardendev.bomberman.commands.MainCommand;
+import me.jonakls.bomberman.Bomberman;
+import me.jonakls.bomberman.commands.MainCommand;
 
 public class CommandRegistry {
     private final CommandManager commandManager;

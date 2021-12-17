@@ -1,4 +1,4 @@
-package me.gardendev.bomberman.commands.game;
+package me.jonakls.bomberman.commands.game;
 
 import me.fixeddev.commandflow.annotated.CommandClass;
 

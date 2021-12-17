@@ -1,4 +1,4 @@
-package me.gardendev.bomberman.commands.setup;
+package me.jonakls.bomberman.commands.setup;
 
 import me.fixeddev.commandflow.annotated.CommandClass;
 
