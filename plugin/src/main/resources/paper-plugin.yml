@@ -1,0 +1,4 @@
+main: top.jonakls.bomberman.plugin.BombermanPlugin
+name: Bomberman
+version: "${project.version}"
+api-version: '1.20'

@@ -1,7 +1,0 @@
-name: Bomberman
-version: '${version}'
-main: me.jonakls.bomberman.Bomberman
-api-version: 1.17
-authors: [ Jonakls ]
-description: Funny minigame of clasic "Bomberman" game for NES console
-website: https://github.com/Jonakls

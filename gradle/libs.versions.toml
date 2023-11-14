@@ -1,0 +1,16 @@
+[versions]
+paper="1.20.2-R0.1-SNAPSHOT"
+placeholder = "2.11.5"
+
+[plugins]
+shadow = "com.github.johnrengelman.shadow:7.1.2"
+paperPluginYAML = "net.minecrell.plugin-yml.paper:0.6.0"
+
+[libraries]
+paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
+placeholder = { group = "me.clip", name = "placeholderapi", version.ref = "placeholder" }
+triumphcmd = "dev.triumphteam:triumph-cmd-bukkit:2.0.0-SNAPSHOT"
+inject = "team.unnamed:inject:2.0.0"
+hikaricp = "com.zaxxer:HikariCP:5.1.0"
+jooq = "org.jooq:jooq:3.14.16"
+slimeWorld = "com.grinderwolf:slimeworldmanager-api:2.2.1"
